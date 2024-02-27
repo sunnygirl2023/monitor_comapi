@@ -6,11 +6,13 @@ CMonitor_Comapi::CMonitor_Comapi(unsigned char loginmodel): ComApi()
 	mi_login_model=loginmodel;
 	if(mi_login_model>LOGIN_MODEL_ONLY_MONITOR)
 		mi_login_model=LOGIN_MODEL_ALL;
+	else
+	   printf("mi_login_model=%d\n",mi_login_model);
 }
 
 CMonitor_Comapi::~CMonitor_Comapi()
 {
-
+  //析构函数
 }
 
 //登录的组包解包
