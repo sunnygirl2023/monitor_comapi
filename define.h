@@ -1,0 +1,3 @@
+#define COMAPI_VER 1.0
+#define COMAPI_NAME "MONITOR"
+#define MAX_TCP_LEN  4096
